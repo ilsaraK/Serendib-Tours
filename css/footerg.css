@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+footer{
+    background: black;
+    height:auto;
+    width:100%;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    color: white;
+}
+.space{
+padding-bottom: 100%;
+}
+.sitemap_btn{
+    border-radius: 20px;
+    width:80px;
+    height:30px;
+    position: relative;
+   left:1400px;
+    top:180px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #fff;
+    padding: 7px 17px;
+    font-size: 13px;
+    
+    background-color: #888383;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 1rem;
+    box-shadow: 0 10px 10px rgba(65, 47, 47, 0.5);
+    
+
+}
+
+.sitemap_btn:hover {
+    border: 1px solid #ffffff;
+    background: #404040;
+    color: white;
+}
+
+
+.developer_btn{
+    border-radius: 20px;
+    width:120px;
+    height:30px;
+    position: relative;
+    left:-50px;
+    top:180px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #fff;
+    padding: 6px 10px;
+    font-size: 13px;
+    background-color: #888383;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 1rem;
+    box-shadow: 0 10px 10px rgba(65, 47, 47, 0.5);
+    
+}
+
+.developer_btn:hover {
+    border: 1px solid #ffffff;
+    background: #404040;
+    color: white;
+}
+
+.footer_content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+.footer_content h3{
+    padding-bottom: 40px;
+    height: 12px;
+    font-size: 25px;
+
+}
+
+
+.socials{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+
+
+.k_details{
+    display:flex;
+    list-style-type:none;
+    column-gap: 200px;
+    height:30px;
+    align-content: center;
+
+
+}
+
+.address{
+    text-align: center;
+}
+
+.footer-bottom{
+    background: black;
+    width:100%;
+    padding:20px;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 12px;
+    word-spacing: 2px;
+}

@@ -1,0 +1,103 @@
+.row {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    background: #C4C4C4;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.column_1, .column_2,.srilanka {
+    overflow: hidden;
+    backdrop-filter: blur(1px);
+}
+
+.srilanka {
+    padding: 3% 2% 4% 5%;
+    width:100%;
+}
+
+
+
+.column_1 {
+    padding: 5% 2% 5% 10%;
+    width:100%;
+}
+
+.column_1 h2 {
+    font-size: 20px;
+    color: black;
+    color: black;
+    line-height: 0.3;
+    margin: 15px 0 30px;
+    position: relative;
+    left:-20px;
+}
+
+.column_1 p {
+    color: black;
+    line-height: 0.3;
+    margin: 15px 0 30px;
+    font-size: 14px;
+}
+
+
+.south_btn,.kandy_btn,.jaffna_btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #888383;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 50px;
+    box-shadow: 0 10px 10px rgba(65, 47, 47, 0.8);
+    top:-10px;
+    left:180px;
+}
+
+.column_2{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    padding: 2% 10% 2% 0%;
+
+}
+h1{
+    text-align: center;
+}
+.box{
+    flex: 1;
+    position: relative;
+    margin: auto;
+    padding: 2% 20% 2% 10%;
+    overflow: hidden;
+    backdrop-filter: blur(1px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: red; 
+  color: white; 
+  cursor: pointer; 
+  padding: 18px; 
+  border-radius: 1rem;
+  font-size: 18px; 
+}
+
+#myBtn:hover {
+  background-color: #C4C4C4;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Serendib Tours | Up Country Tour</title>
+    <meta name="viewpoint" content="width=device-width, initial-scale.1">
+    <link rel="icon" href="./images/logo.png" type="image/icon">
+	<script src="https://kit.fontawesome.com/08fd8f9fea.js" crossorigin="anonymous"></script>
+	<!-- CSS -->
+	<link rel="stylesheet" href="./css/Navigation.css">
+	<link rel="stylesheet" href="./css/home.css">
+	<link rel="stylesheet" href="./css/footerg.css">
+    <link rel="stylesheet" href="./css/tours.css">
+</head>
+<body style="background-image: url(./media/bg3.jpg);">
+   
+   	<!-- bottom to Top -->
+	<div class="arrow_up">
+        <i class="fa-solid fa-angles-up" onclick="topFunction()" id="up_btn" title="Go to top"></i>
+    </div>
+	
+	<!-- Navigation Bar -->
+	<div class="Navigation_Bar">
+	        <nav class="links">
+	                <a href="Home.html"><img class="logo" src="./images/logo.png" alt="logo" ></a>
+	                <div class="Navigation_links" id="navLinks">
+	                    <ul>
+	                        <li><a href="Home.html" >HOME</a></li>
+	                        <li><a href="map.html" class="active">TOURS</a>
+	                        <li><a href="products.html">PRODUCTS</a></li>
+	                        <li><a href="gallery.html">GALLERY</a></li>
+	                        <li><a href="start.html">QUIZ</a></li>
+	                        <li><a href="studentdetail.html">DEVELOPERS</a></li>
+	                        <li><a href="query.html">CONTACT US</a></li>        
+	                    </ul>
+	                </div>
+	        </nav>
+    </div>
+    
+
+
+    <div class="container">
+        <div class="timeline">
+            <div class="topic"><h1>Up Country Tour</h1></div><br><br><br>
+            <ul>
+                <li>
+                    <img src="images/kandy.png" width="270" alt="kandy" style="margin-left:371px; margin-bottom:-330px;">
+                    <div class="timeline-content">
+                        <h1>Day 01</h1>
+                        
+                        <p><b>2 nights and 3 days.The Peradeniya Botanical Garden</b> displays over 4000 different species of plants, regarded amongst the most superior in Asia.
+                             Gorgeous avenues lead on to sections exploding in bursts of tropical colour and vast lawns dotted with enormous trees.
+                             <b>The Temple of the Tooth</b> is one of the landmark sites in the city of Kandy. Can catch a glimpse of Buddhist rituals, explore the museum that includes several ancient artifacts.
+                        </p>
+                    </div>
+                </li>
+               
+                <li>
+                    <img src="images/tea.png" width="270" alt="tea" style="margin-left:-230px; margin-bottom:-315px;"> 
+                    <div class="timeline-content">
+                        <h1>Day 02</h1>
+                        <p><b> Hakgala is a temperate hill-country garden</b>, where the lovely low-country lotus and water lily    mingles in their serene simplicity with sophisticated English roses, pre-historic looking ferns, and endemic orchids.
+                           A stay at<b> Heritance Tea Factory</b> would not be complete without an adventure through the neat terraces of tea.
+                           This excursion is a tad bit different from your typical day trips.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/ella.png" width="270" alt="ella" style="margin-left:371px; margin-bottom:-285px;">
+                    <div class="timeline-content">
+                        <h1>Day 03</h1>
+                        <p><b>Ella</b> is a favourite among day hikers and more experienced trekkers alike. The two famous treks in the area are<b> Little Adam’s Peak</b> and<b> Ella Rock</b>, not to mention<b> Ravana Falls</b> and other famous waterfalls in the area. The views in Ella are unbeatable.
+                           From different sides of the ridge, the views are different.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        //Get the button:
+        myicon = document.getElementById("up_btn");
+
+        // When the user scrolls down 600px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) { //button shows when pages down 600px
+            myicon.style.display = "block";
+        } else {
+            myicon.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+  
+
+    </script>
+    <footer>
+        <button class="sitemap_btn" onclick="location.href='sitemap.html'">SiteMap</button>
+        <button class="developer_btn" onclick="location.href='studentdetail.html'">Page Developer</button>
+        <div class="footer_content">
+            <h3> Serendib Tours</h3>
+        
+            <ul class="socials">
+                <li> <a href="https://twitter.com/SerendibTours2"><i class="fa-brands fa-twitter" style="color:#1DA1F2"></i></a></li>
+                <li> <a href="https://www.instagram.com/serendib_tours"><i class="fa-brands fa-instagram" style="color:#E1306C"></i></a></li>
+                <li> <a href="https://www.facebook.com/profile.php?id=100079049926088"><i class="fa-brands fa-facebook" style="color:#4267B2"></i></a></li>
+                
+            </ul>
+
+            
+            <ul class="k_details">
+            
+            <li class="number">+94 7526833266 </li> 
+            <li class="address">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No.133B,Baseline Road,Borella &nbsp; </li> 
+            <li class="mail"> serendibtourssl@gmail.com   </li>
+            </ul>
+           
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2022 Serendib Tours-Sri Lanka.All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+     
+</body>
+</html>

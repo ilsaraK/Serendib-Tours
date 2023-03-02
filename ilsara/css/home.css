@@ -1,0 +1,188 @@
+/* Home Page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Slideshow container */
+.slideshow_container {
+  display: flew;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/* Number text (1/7) */
+.num{
+  color: white;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+}
+ 
+/* bullets */
+.bullets {
+  background-color: white;
+  display: inline-block;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* slides hover */
+.slideshow_container {
+  position: relative;
+  width: 100%;
+}
+
+.slides {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 650px;
+}
+
+/* slides over transition*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.slideshow_container:hover .overlay {
+  opacity: 1;
+}
+
+
+/* slides over words */
+.slidetext {
+  color: white;
+  position: relative;
+  padding: 0 130px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.topic{
+  font-family: Bookman Old Style;
+}
+
+/*Srendib Tours Description*/
+.row {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    background: #C4C4C4;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.column_1, .column_2 {
+    overflow: hidden;
+    backdrop-filter: blur(1px);
+}
+
+.column_1 {
+    padding: 2% 3% 2%;
+}
+
+.column_1 h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.column_1 h2 {
+  color: black;
+  line-height: 1.6;
+  margin: 15px 0 30px;   
+}
+
+.column_1 p {
+    color: black;
+    line-height: 1.6;
+    margin: 15px 0 30px;
+    font-size: 18px;
+}
+
+.column_2{
+    width: 100%;
+    position: relative;
+    top: 75px;
+    right: 20px;
+    padding: 2% 2% 2%;
+}
+
+/*Srendib Tours Description Button*/
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #888383;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 50px;
+    box-shadow: 0 10px 10px rgba(65, 47, 47, 0.8);
+}
+
+/*Srendib Tours Description Button hover*/
+.button:hover {
+    border: 1px solid #ffffff;
+    background: #404040;
+    color: white;
+}
+
+/* products */
+.products {
+    margin: 100px auto;
+    width: 80%;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(../images/products.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.products h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+

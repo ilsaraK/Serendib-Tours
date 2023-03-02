@@ -1,0 +1,64 @@
+.quiz-box {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(2rem);
+    width: 45%;
+    
+    min-height: 100px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.3);
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    
+}
+.stu_img{
+    width:500px;
+    height:500px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+     border-radius: 7rem;
+    padding-top: 25px;
+     padding-bottom: 25px;
+
+}
+body {
+    background-size:cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-attachment:fixed;
+    color:black;
+    font-size:18px;
+    font-family: Arial;
+}
+
+
+#button ,#myBtn{ 
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: grey;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 50px;
+    margin-bottom:25px; }
+    
+#button,#myBtn:hover {
+    background-color:darkgray;
+}
+#student,#student ul{
+    text-align: center;
+    list-style: none;
+}
+
+.logo{
+    width: 5%;
+    height:10%;
+    padding-right: 10px;
+}
