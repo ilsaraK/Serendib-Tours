@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<title>Serendib Tours | Buy Products</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="./images/logo.png" type="image/icon">
+	<script src="https://kit.fontawesome.com/08fd8f9fea.js" crossorigin="anonymous"></script>
+	<!-- CSS -->
+	<link rel="stylesheet" href="./css/Navigation.css">
+	<link rel="stylesheet" href="./css/home.css">
+	<link rel="stylesheet" href="./css/footerg.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body style="background-image: url(./images/bg3.jpg);">
+   
+   	<!-- bottom to Top -->
+	<div class="arrow_up">
+        <i class="fa-solid fa-angles-up" onclick="topFunction()" id="up_btn" title="Go to top"></i>
+    </div>
+	
+	<!-- Navigation Bar -->
+	<div class="Navigation_Bar">
+	        <nav class="links">
+	                <a href="Home.html"><img class="logo" src="./images/logo.png" alt="logo" ></a>
+	                <div class="Navigation_links" id="navLinks">
+	                    <ul>
+	                        <li><a href="Home.html">HOME</a></li>
+	                        <li><a href="map.html" >TOURS</a>
+	                        <li><a href="products.html" class="active">PRODUCTS</a></li>
+	                        <li><a href="gallery.html">GALLERY</a></li>
+	                        <li><a href="start.html">QUIZ</a></li>
+	                        <li><a href="studentdetail.html">DEVELOPERS</a></li>
+	                        <li><a href="Query.html">CONTACT US</a></li>        
+	                    </ul>
+	                </div>
+	        </nav>
+    </div>
+
+	<div class="title">
+        <br><h1>Products</h1>
+     </div>
+  <div style="width:70%; float:right">
+  <div class="container">
+     <div class="store">
+	    <div class="imgstore">
+		   <img src="images/CaneBuckets.jpg" alt="CaneProducts">
+		<div class="figures">
+		  <div class="content">
+		    <h2>Cane Buckets</h2>
+			<a href="#CaneProducts">
+			<div class="img_btn">Explore</div>
+			</a>
+			
+		   </div>
+		</div>
+      </div>
+	 </div>
+	 <div class="store">
+	 <div class="imgstore">
+		   <img src="images/BatikSarongs.jpg" alt="batik">
+		   <div class="figures">
+		    <div class="content">
+		    <h2>Batik Sarongs</h2>
+			<a href="#batik">
+			<div class="img_btn">Explore</div>
+			</a>
+		    </div>
+		</div>
+		</div>
+	 </div>
+	 <div class="store">
+	 <div class="imgstore">
+		   <img src="images/Masks.jpg" alt="mask">
+		   <div class="figures">
+		   <div class="content">
+		    <h2>Masks</h2>
+			<a href="#mask">
+			<div class="img_btn">Explore</div>
+			</a>
+		  </div>
+		</div>
+		</div>
+	 </div>
+
+	 <div class="store">
+	 <div class="imgstore">
+		   <img src="images/Elephantwoodencraft.jpg" alt="craft">
+		   <div class="figures">
+		    <div class="content">
+		    <h2>Sri Lankan Elephant Wooden Craft</h2>
+			<a href="#craft">
+			<div class="img_btn">Explore</div>
+			</a>
+		    </div>
+		</div>
+		</div></div>
+	
+		</div>
+   
+   <div class="product_sec">
+     <img class="products_img" src="images/CaneBuckets.jpg" alt="CaneProducts">
+     <div class="inner-container">
+        <div class="product_title" id="cane">Cane Buckets</div>
+        <div class="description">
+            Cane (Calamus ovoideus) in Sinhala Wewal is a thriving industry that is fast grabbing attention in the fashion as well as the design industry.
+        </div>
+        <div class="details">
+           <p>Prize: 600 LKR</p>
+           
+           <form>
+               <label>Quantity:</label>
+			   <input  type="number" name="quantity" placeholder="Quantity" min="0" value="0">
+               <p>Colours:</p>
+              <div class="radio_style">
+               <label>Red</label>
+			<input type="radio" value="Red" id="cane_red" name="rad_button" onchange="warn_msg(this.form)">
+			<label>Green</label>
+			<input type="radio" value="Green" id="cane_green" name="rad_button" onchange="warn_msg(this.form)">
+			<label>Yellow</label>
+			<input type="radio" value="Purple" id="cane_yellow" name="rad_button" onchange="warn_msg(this.form)">
+			</div>
+               <button class="item_button"  type="button"    onclick="validation(this.form,'Cane Buckets','600')">Add to Cart</button>
+           </form> 
+        </div>
+     </div>
+  </div>
+    <div class="product_sec">
+     <img class="products_img" src="images/BatikSarongs.jpg" alt="batik">
+     <div class="inner-container">
+        <div class="product_title" id="batik">Batik Sarongs</div>
+        <div class="description">
+            In its purest form batik is a method of decorating a piece of cloth by creating pattern on it with wax and colouring rest of the piece of cloth.
+        </div>
+        <div class="details">
+           <p>Prize: 2000 LKR</p>
+           <form>
+               <label>Quantity:</label>
+			   <input  type="number" name="quantity" placeholder="Quantity" min="0" value="0">
+               <p>Colours:</p>
+              <div class="radio_style">
+                  <label>Black</label>
+                  <input type="radio" value="Black" id="sarong_black" name="rad_button" onchange="warn_msg(this.form)">
+			      <label>Brown</label>
+			      <input type="radio" value="Red" id="sarong_red" name="rad_button" onchange="warn_msg(this.form)">
+			      <label>White</label>
+			      <input type="radio" value="White" id="sarong_white" name="rad_button" onchange="warn_msg(this.form)">
+                  <label>Yellow</label>
+			      <input type="radio" value="Yellow" id="sarong_yellow" name="rad_button" onchange="warn_msg(this.form)">
+			  </div>
+			 <button class="item_button"  type="button"    onclick="validation(this.form,'Batik Sarongs','2000')">Add to Cart</button>
+           </form>
+        </div>
+     </div>
+    </div>
+    <div class="product_sec">
+     <img class="products_img" src="images/Masks.jpg" alt="mask">
+     <div class="inner-container">
+        <div class="product_title" id="mask">Masks</div>
+        <div class="description">
+           Raksha mask is used by Sri Lankans in their cultural dances. It is a fascinating souvenir which is made by wood.
+        </div>
+        <div class="details">
+           <p>Prize: 6000 LKR</p>
+           <form>
+               <label>Quantity:</label>
+			   <input  type="number" name="quantity" placeholder="Quantity" min="0" value="0">
+               <p>Colors:</p>
+              <div class="radio_style">
+               <label>Yellow and Green</label>
+			<input type="radio" value="Yellow and Green" id="mask_YandG" name="rad_button" onchange="warn_msg(this.form)">
+			<label>Blue and Gray</label>
+			<input type="radio" value="Blue and Gray" id="mask_BandY" name="rad_button" onchange="warn_msg(this.form)">
+			<label>Red and Black</label>
+			<input type="radio" value="Red and Black" id="mask_RandB" name="rad_button" onchange="warn_msg(this.form)">
+			</div>
+			 <button class="item_button"  type="button"    onclick="validation(this.form,'Masks','6000')">Add to Cart</button>
+           </form>
+        </div> 
+     </div>
+    </div>
+    <div class="product_sec">
+     <img class="products_img" src="images/Elephantwoodencraft.jpg" alt="craft">
+     <div class="inner-container">
+        <div class="product_title" id="bag">Sri Lankan Elephant wooden craft</div>
+        <div class="description">
+            The wooden elephant is part of our culture and amazing heritage. These beautifully carved elephants come in striking designs and poses.
+        </div>
+        <div class="details">
+           <p>Prize: 1500 LKR</p>
+           <form>
+               <label>Quantity:</label>
+			   <input  type="number" name="quantity" placeholder="Quantity" min="0" value="0">
+               <p>Colors:</p>
+              <div class="radio_style">
+               <label>White</label>
+			<input type="radio" value="White" id="craft_White" name="rad_button" onchange="warn_msg(this.form)">
+			<label>Gold</label>
+			<input type="radio" value="Gold" id="craft_Gold" name="rad_button" onchange="warn_msg(this.form)">
+			<label>Black</label>
+			<input type="radio" value="Black" id="craft_Black" name="rad_button" onchange="warn_msg(this.form)">
+			</div>
+			 <button class="item_button"  type="button"    onclick="validation(this.form,'Elephantwoodencraft','1500')">Add to Cart</button>
+           </form>
+        </div>
+     </div>
+    </div>
+    
+           
+            
+        </div>
+         
+    
+    
+    	<div id = "checkout">
+			
+			<div id = "checkoutForm">
+		
+				<div id = "checkoutTopBox">CHECKOUT</div>
+						
+				<div id = "checkoutMiddleBox">
+					<form name = "customerInfo">
+						<label class = "figures" for = "firstName">First Name</label>
+						<input type = "text" name = "firstName" id = "firstName" placeholder = "Enter your first name">
+									
+						<label class = "figures" for = "lastName">Last Name</label>
+						<input type = "text" name = "lastName" id = "lastName" placeholder = "Enter your last name">
+									
+						<label class = "figures" for = "emailAddress">Email</label>
+						<input type = "email" name = "emailAddress" id = "emailAddress" placeholder = "Enter your email">
+									
+						<label class = "figures" for = "address">Shipping Address</label>
+						<textarea name = "address" id = "address" rows= "7"></textarea>
+					</form>
+				</div>
+				
+				<div id = "checkoutBottomBox">
+				
+				
+						
+				<button class="item_button" type = "button" onclick="Order()">Submit</button>
+				</div>
+			</div>
+			
+			<div id = "bill"> 
+
+				<div id = "billTopBox">Bill</div>
+                <div class="div2">
+                    <p class="invoice-line">====================================</p>
+                    <img class="logo" src="./images/logo.png" alt="logo">
+                    <p class="text1">INVOICE</p><br><br>
+                    <p class="invoice-line">====================================</p>
+                <div class="contact">
+                  Serendib Tours
+                  <br>
+                Contact us :+94714502519
+                ============================================
+                </div>
+                <div id="personal_details"></div>
+                <div id="products_details"></div>
+                <div id="total"></div>  
+                
+				</div>		
+				
+			</div>
+		</div>
+		
+		<script>
+           
+            function validation(frm,product,price){
+                var amount=frm.quantity.value;
+                var choice=frm.rad_button;
+                var sample=true;
+                var count=0;
+                var selection;
+				
+                if(amount==0){
+                    alert("Please enter the quantity!");
+                    sample="false";
+                    
+                }
+			
+                for(i = 0; i < choice.length; i++){
+                      if(choice[i].checked){
+                          selection=choice[i].value;
+                          count=1;
+                      }
+                }
+                
+                if(count==0){
+                    alert("Please select a colour/size!");
+                    sample=false;
+                }
+			
+                
+                if(sample){
+                    var sum=amount * price;
+                    total=total+sum;
+                    document.getElementById("products_details").innerHTML += "Product:"+product+"(" + selection + ")<br>";
+                    document.getElementById("products_details").innerHTML += "Number of products:" + amount + "<br>";
+                    document.getElementById("products_details").innerHTML += "<br>Price:" +sum+ " LKR<br><br>";
+                    
+                    alert("Total : "+total +"LKR")
+                    
+                }
+            }
+            
+            function warn_msg(frm){
+                var amount=frm.quantity.value;
+                if(amount==0){
+                    alert("Please Enter the Quantity!");
+                }
+            } 
+            
+            function Order(){
+                var f_name=document.customerInfo.firstName.value;
+                var email=document.customerInfo.emailAddress.value;
+                var address=document.customerInfo.address.value;
+                var l_name=document.customerInfo.lastName.value;
+				var submit=true;
+                 
+                if(f_name.length == 0){
+                    alert("Please Enter Your First Name: ");
+                    submit=false;
+                }
+				
+                if(email.length == 0){
+                    alert("Please Enter Your Email: ");
+                    submit=false;
+                }
+				
+                if(address.length == 0){
+                    alert("Pleasse enter your address ");
+                    submit=false;
+                }
+				
+                if(l_name.length == 0){
+                    alert("Pleasse Enter Your Last Name: ");
+                    submit=false;
+                }
+				 
+                if(submit){
+                    document.getElementById("personal_details").innerHTML += "Name : " +f_name + l_name +" <br>Email : " + email+"<br>Address" +address +"<br>" ;
+                    document.getElementById("personal_details").innerHTML += ".......................................................................................";
+                    document.getElementById("products_details").style.display="block";
+                    
+                    Total(); 
+                }
+             }
+            
+             function Total(){
+                 document.getElementById("total").innerHTML = "Total is :"+total+ " LKR "; 
+             } 
+			 
+			 var total=0;
+            //Get the button:
+            myicon = document.getElementById("up_btn");
+
+            // When the user scrolls down 600px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+            if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) { //button shows when pages down 600px
+                myicon.style.display = "block";
+            } else {
+                myicon.style.display = "none";
+            }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+              
+        </script>
+
+        <div class="space"></div>
+         <footer>
+            <button class="sitemap_btn" onclick="location.href='sitemap.html'">SiteMap</button>
+            <button class="developer_btn" onclick="location.href='kavithma.html'" >Page Developer</button>
+            <div class="footer_content">
+                <h3> Serendib Tours</h3>
+            
+                <ul class="socials">
+                    <li> <a href="https://twitter.com/SerendibTours2"><i class="fa-brands fa-twitter" style="color:#1DA1F2"></i></a></li>
+                    <li> <a href="https://www.instagram.com/serendib_tours"><i class="fa-brands fa-instagram" style="color:#E1306C"></i></a></li>
+                    <li> <a href="https://www.facebook.com/profile.php?id=100079049926088"><i class="fa-brands fa-facebook" style="color:#4267B2"></i></a></li>
+                    
+                </ul>
+    
+                
+                <ul class="k_details">
+                
+                <li class="number">+94 7526833266 </li> 
+                <li class="address">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No.133B,Baseline Road,Borella &nbsp; </li> 
+                <li class="mail"> serendibtourssl@gmail.com   </li>
+                </ul>
+               
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2022 Serendib Tours-Sri Lanka.All Rights Reserved.</p>
+            </div>
+        </footer>
+        
+    
+        <!-- Java Script -->
+        <script  src="./js/home.js" async></script>
+        
+        
+  
+
+</body>
+
+</html>
